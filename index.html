@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <p id="name">saurabh</p>
+    <button onClick=myFun()>like me</button>
+    <h1 id="para">saurabh pankaj</h1> -->
+    <input id="para" type="text" placeholder="enter name here">
+    <button onClick=myFun()>submit</button>
+    <h1 id="Jumble">show name here</h1>
+
+</body>
+
+</html>
+<script>
+    // let count =0;
+    // function myFun(){
+    //     count++;
+
+    //     console.log("someone liked you",count,"times");
+    // }
+    //let name =document.getElementById("name").innerText;
+    //let name =document.getElementById("name").textContent;
+    //let name =document.getElementById("name").innerHTML;
+    // console.log(name);
+
+    //    let name =document.getElementById("para").innerHTML;
+    //    document.getElementById("name").innerText=name;
+    function myFun() {
+        let enterdName = document.getElementById("para").value;
+        document.getElementById("Jumble").innerText = enterdName;
+    }
+
+
+
+</script>
